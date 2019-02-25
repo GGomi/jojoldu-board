@@ -1,4 +1,4 @@
-package com.essri.board.web.domain.posts;
+package com.essri.board.web;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
