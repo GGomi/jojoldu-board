@@ -2,7 +2,7 @@ package com.essri.board.web.service;
 
 import com.essri.board.web.Posts;
 import com.essri.board.web.PostsRepository;
-import com.essri.board.web.PostsSaveRequestDto;
+import com.essri.board.web.dto.PostsSaveRequestDto;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,10 +20,12 @@ public class PostsServiceTest {
 
     @Autowired
     private PostsService postsService;
+
     @After
     public void cleanUp() {
         postsRepository.deleteAll();
     }
+
     @Test
     public void Dto데이터_posts테이블에_저장된다 () {
         //given

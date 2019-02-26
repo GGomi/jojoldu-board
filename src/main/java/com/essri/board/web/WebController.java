@@ -1,14 +1,19 @@
 package com.essri.board.web;
 
+import com.essri.board.web.service.PostsService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 @AllArgsConstructor
 public class WebController {
+    private PostsService postsService;
+
     @GetMapping("/")
-    public String main() {
+    public String main(Model model) {
+        model.addAttribute("posts", postsService.findAllDesc());
         return "main";
     }
 }

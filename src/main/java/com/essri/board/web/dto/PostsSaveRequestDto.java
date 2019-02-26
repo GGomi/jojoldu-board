@@ -1,9 +1,7 @@
-package com.essri.board.web;
+package com.essri.board.web.dto;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import com.essri.board.web.Posts;
+import lombok.*;
 
 @Getter
 @Setter
