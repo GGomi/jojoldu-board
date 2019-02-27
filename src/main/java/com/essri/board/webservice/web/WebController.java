@@ -1,6 +1,6 @@
-package com.essri.board.web;
+package com.essri.board.webservice.web;
 
-import com.essri.board.web.service.PostsService;
+import com.essri.board.webservice.service.PostsService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

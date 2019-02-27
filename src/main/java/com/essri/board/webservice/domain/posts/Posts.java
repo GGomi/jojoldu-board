@@ -1,6 +1,6 @@
-package com.essri.board.web;
+package com.essri.board.webservice.domain.posts;
 
-import com.essri.board.web.domain.BaseTimeEntity;
+import com.essri.board.webservice.domain.BaseTimeEntity;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;

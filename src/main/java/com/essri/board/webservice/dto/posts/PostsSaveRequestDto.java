@@ -1,6 +1,6 @@
-package com.essri.board.web.dto;
+package com.essri.board.webservice.dto.posts;
 
-import com.essri.board.web.Posts;
+import com.essri.board.webservice.domain.posts.Posts;
 import lombok.*;
 
 @Getter

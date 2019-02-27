@@ -1,4 +1,4 @@
-package com.essri.board.web.domain;
+package com.essri.board.webservice.domain;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;

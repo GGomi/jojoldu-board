@@ -1,4 +1,4 @@
-package com.essri.board.web;
+package com.essri.board.webservice.web;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,8 +15,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class WebControllerTest {
     @Autowired
     private TestRestTemplate restTemplate;
-
-    // handler 버전오류인듯
+    
     @Test
     public void 메인페이지_로딩 () {
         String body = this.restTemplate.getForObject("/", String.class);

@@ -1,7 +1,5 @@
-package com.essri.board.web.domain.posts;
+package com.essri.board.webservice.domain.posts;
 
-import com.essri.board.web.Posts;
-import com.essri.board.web.PostsRepository;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

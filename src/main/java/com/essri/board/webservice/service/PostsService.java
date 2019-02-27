@@ -1,8 +1,8 @@
-package com.essri.board.web.service;
+package com.essri.board.webservice.service;
 
-import com.essri.board.web.PostsRepository;
-import com.essri.board.web.dto.PostsMainResponseDto;
-import com.essri.board.web.dto.PostsSaveRequestDto;
+import com.essri.board.webservice.domain.posts.PostsRepository;
+import com.essri.board.webservice.dto.posts.PostsMainResponseDto;
+import com.essri.board.webservice.dto.posts.PostsSaveRequestDto;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

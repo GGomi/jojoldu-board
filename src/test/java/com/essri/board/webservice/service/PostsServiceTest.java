@@ -1,8 +1,8 @@
-package com.essri.board.web.service;
+package com.essri.board.webservice.service;
 
-import com.essri.board.web.Posts;
-import com.essri.board.web.PostsRepository;
-import com.essri.board.web.dto.PostsSaveRequestDto;
+import com.essri.board.webservice.domain.posts.Posts;
+import com.essri.board.webservice.domain.posts.PostsRepository;
+import com.essri.board.webservice.dto.posts.PostsSaveRequestDto;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
