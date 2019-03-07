@@ -47,7 +47,5 @@ deploy:
       repo: GGomi/jojoldu-board
       branch: master
 
-notifications:
-  email:
-    recipients:
-      - dhkdn4042@gmail.com
+after_success:
+  - ./gradlew jacocoTestReport coveralls
